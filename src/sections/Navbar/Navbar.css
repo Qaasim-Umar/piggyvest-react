@@ -1,0 +1,142 @@
+
+
+.nav-links a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin: 1rem;
+}
+
+ .header .logo{
+flex: 1;
+}
+
+
+.nav-links{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex: 5;
+ 
+}
+
+#logo{
+   height: 2rem;
+   
+}
+.auth {
+  display: flex;
+  gap: 0.6rem;
+}
+.header {
+  display: flex;
+  align-items: center;
+  font-family: 'DM Sans', sans-serif;
+  padding: 1.3rem 5rem  1rem 5rem;
+  box-shadow: 0 .2rem .5rem rgba(0, 0, 0, .1);
+}
+
+
+.save {
+  border: 1px solid rgb(223, 216, 216);
+  display: grid;
+  width: 25rem;
+  font-size: 14px;
+  border-radius: 1rem;
+  grid-template-columns: 1fr 1fr;
+  background-color: #ffffff;
+  
+}
+.save div {
+  display: flex;
+}
+
+
+
+.tooltip {
+  position: relative;
+}
+.tooltip .save {
+  visibility: hidden;
+  position: absolute;
+  left:-10rem;
+  top: 1.55rem;
+  z-index: 1;
+}
+.tooltip:hover .save {
+  visibility: visible;
+}
+.grid-item {
+  padding: 1.5rem;
+}
+
+
+.image1 img, .image2 img, .image3 img, .image4 img{
+  height: 2rem;
+}
+.image1 , .image2 , .image3 , .image4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image1:hover{
+  background-color: rgb(228, 222, 222);
+  border-radius: 1rem 0 0 0;
+}
+.image4:hover{
+  background-color: rgb(228, 222, 222);
+  border-radius: 0 0 1rem 0;
+}
+.image2:hover{
+  background-color: rgb(228, 222, 222);
+  border-radius:0  1rem 0 0;
+}
+.image3:hover{
+  background-color: rgb(228, 222, 222);
+  border-radius: 0 0 0 1rem ;
+}
+
+.target{
+  padding-left: 1.2rem;
+}
+
+.icon{
+  font-size: 2.5rem;
+  display: none;
+ 
+}
+
+@media only screen and (max-width:600px){
+
+
+  .icon{
+    display: block;
+  }
+  .header{
+
+    padding: 1.8rem;
+    box-shadow: none;
+    position: relative;
+  }
+  
+.nav-links{
+  position: absolute;
+  top: 6rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  flex-direction: column;
+  
+}
+.nav-links a{
+  display: block;
+  border: 1px solid red;
+}
+.auth{
+  flex-direction:column ;
+}
+
+
+
+}

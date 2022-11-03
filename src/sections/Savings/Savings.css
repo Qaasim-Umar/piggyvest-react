@@ -1,0 +1,31 @@
+#savings-btn{
+ width: 9rem;  
+ background-color: #222121; 
+}
+.savings-grid{
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.savings-left{
+    max-width: 330px;
+    margin: 0 5rem;
+}
+
+
+.savings-left h4{
+    color: #272727;
+    margin-bottom: 0;
+    font-size: 2.4rem;
+    
+
+}
+.savings-left p{
+    color: #353535;
+margin: 2.5rem 0;
+}
+.saving-card{
+    margin-top:12rem ;
+    display: flex;
+}

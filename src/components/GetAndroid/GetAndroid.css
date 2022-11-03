@@ -1,0 +1,17 @@
+.android-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+height: 3.5rem;
+    border: 1px solid #d3d2d2;
+    width: 11rem;
+    border-radius: .6rem;
+    display: flex;
+    gap: .5rem;
+}
+
+.android-btn a{
+    text-decoration: none;
+    color: #000000;
+}

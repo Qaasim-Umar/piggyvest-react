@@ -1,0 +1,126 @@
+@import url(//db.onlinewebfonts.com/c/7017698b5c5a2cc397cd3b0c0984d76f?family=U8);
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  font-family: "U8" !important;
+}
+.row .left {
+  flex: 1 1 auto;
+}
+.row .right {
+  flex: 1 1 auto;
+}
+
+/* left  */
+.left {
+  width: 22rem;
+  padding: 0 6rem;
+}
+
+.right {
+  position: relative;
+  padding-top: 2.5rem;
+  padding-right: 9rem;
+}
+
+/* absolute position */
+#rect {
+  position: absolute;
+  top: 0;
+  left: 3rem;
+}
+#headerimg {
+  position: absolute;
+}
+#investify {
+  position: absolute;
+  top: 25rem;
+  right: 5.5rem;
+  height: 8rem;
+  z-index: 10;
+}
+#rentcard {
+  position: absolute;
+  height: 8rem;
+  top: 10rem;
+  left: -7rem;
+  z-index: 10;
+}
+
+#cross {
+  z-index: 12;
+  position: absolute;
+  top: 0.3rem;
+  left: -2rem;
+}
+#circle {
+  z-index: 12;
+  position: absolute;
+  top: 11rem;
+  right: 11.6rem;
+}
+#lineDot {
+  z-index: 12;
+  position: absolute;
+  top: 22rem;
+  left: -1rem;
+}
+
+.get-app {
+  display: flex;
+  gap: 2rem;
+}
+
+.left h1 {
+  padding-top: 2.5rem;
+  margin-bottom: 0;
+  width: 90%;
+  font-size: 65px;
+  color: #0c1825;
+  line-height: 82.42px;
+}
+
+.left p {
+  font-size: 17px;
+  width: 90%;
+  color: #353535;
+  font-family: "DM Sans", sans-serif;
+  line-height: 27.2px;
+}
+
+.bttn {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.get-app #getandroid:hover {
+  margin-top: -0.5rem;
+  transition: all 500ms ease;
+}
+
+.get-app #getiphone:hover {
+  margin-top: -0.5rem;
+  transition: all 500ms ease;
+}
+
+@media screen and (max-width: 992px) {
+  .row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .left p {
+    line-height: 27.2px;
+    padding: 0 5rem;
+  }
+}

@@ -1,0 +1,47 @@
+
+.security{
+    margin: 19rem 8rem  9rem 5rem;
+}
+.security-image{
+   flex: 2; 
+   
+}
+.security-text{
+    flex: 5;
+} 
+.security-text h4{
+    font-size: 33px;
+    line-height: 42px;
+    margin-bottom: 0;
+    font-family: 'U8' !important;
+    font-weight: 700;
+    color: #0c1825;
+}
+
+.security-text p{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    color: #54595e;
+    line-height: 26px;
+
+}
+.security-text a{
+    color: #0d60d8;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+}
+.security-container{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.security-image img{
+margin-left: 16rem;
+margin-top: 3rem;
+    height: auto;
+    max-width: 100px;
+}

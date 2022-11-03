@@ -1,0 +1,56 @@
+.investment-image {
+  position: relative;
+}
+.left {
+  flex: 2;
+}
+
+.investment-card {
+  display: flex;
+  margin: 5rem 4rem;
+  padding: 2rem;
+}
+#invest-img {
+  height: 34rem;
+  padding-left: 5rem;
+}
+#crossicon {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+}
+#circleicon {
+  position: absolute;
+  z-index: -1;
+  top: 10rem;
+  left: -5rem;
+  height: 19rem;
+  color: #000000;
+}
+
+.right {
+  flex: 3;
+  margin-top: 2rem;
+}
+.right span {
+  background-color: #f7f0ff;
+  padding: 0.6rem 1.5rem;
+  font-weight: 500;
+  border-radius: 2rem;
+  color: #7913e5;
+}
+.right h4 {
+  font-size: 51px;
+  margin-bottom: 1.5rem;
+  margin-top: 4.5rem;
+}
+
+.right p {
+  margin-bottom: 2rem;
+  padding-right: 2rem;
+}
+.right a{
+    color: #7913e5;
+    font-size: 18px;
+    font-weight: 500;
+}

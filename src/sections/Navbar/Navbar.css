@@ -5,6 +5,9 @@ body {
   margin: 0;
   padding: 0;
 }
+.show , .hidden{
+  display: none;
+} 
 .nav-links a {
   text-decoration: none;
   color: #000000;
@@ -36,6 +39,15 @@ body {
   align-items: center;
   font-family: "DM Sans", sans-serif;
   padding: 1.3rem 5rem 1rem 5rem;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 15;
+background-color: #ffffff;
+ 
+}
+
+.shadow{
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
@@ -113,12 +125,14 @@ body {
   .save {
     width: 20rem;
   }
-  .hidden {
-    display: none;
-  }
+ 
+ .hidden {
+  display: none;
+}
   .show {
     display: block;
   }
+ 
   .header {
     position: relative;
     padding: 0;
@@ -169,7 +183,7 @@ body {
     border: none;
     color: #000000;
   }
-  .bar button {
+  .bar button  {
     border: none;
     font-size: 1.9rem;
     line-height: 1rem;

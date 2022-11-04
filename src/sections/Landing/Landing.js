@@ -15,7 +15,7 @@ import circle from "./circle.svg";
 
 const Landing = () => {
   return (
-    <div>
+    <div >
       <div className="landing-container">
         <div className="landing-row">
           <div className="landing-left">

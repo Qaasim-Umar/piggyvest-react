@@ -11,23 +11,21 @@ import SignBtn from "../../components/SignBtn/SignBtn";
 
 import { HiBars3 } from "react-icons/hi2";
 import { FaTimes } from "react-icons/fa";
-import {useState} from 'react';
+import { useState, useEffect } from "react";
 
+function Navbar(props) {
+  const [state, setState] = useState(true);
+  const handleClick = () => {
+    setState(!state);
+  };
 
-
-
-function Navbar() {
-  const [state,setState]=useState(true)
-  const handleClick=()=>{
-    setState(!state)
-  }
   return (
-    <div className="header">
+    <div className={props.scrollstate ? "header shadow" : "header"}>
       <div className="logo">
         <img src={logo} id="logo" alt="" />
       </div>
 
-      <nav className={state?'nav-links':'nav-links active'}>
+      <nav className={state ? "nav-links" : "nav-links active"}>
         <div className="sub-header">
           <a href="#" className="tooltip">
             Save
@@ -65,10 +63,13 @@ function Navbar() {
       </nav>
 
       <div className="bar">
-       <button className={state?'show':'hidden'}  onClick={handleClick}><HiBars3/></button> 
-        <button className={state?'hidden':'show '} onClick={handleClick}><FaTimes /></button>
+        <button className={state ? " show" : "hidden"} onClick={handleClick}>
+          <HiBars3  />
+        </button>
+        <button className={state ? "hidden" : "show "} onClick={handleClick}>
+          <FaTimes/>
+        </button>
       </div>
-  
     </div>
   );
 }

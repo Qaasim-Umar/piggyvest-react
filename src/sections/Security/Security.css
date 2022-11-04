@@ -45,3 +45,25 @@ margin-top: 3rem;
     height: auto;
     max-width: 100px;
 }
+
+
+@media screen and (max-width: 992px) {
+
+    .security{
+        margin: 30rem auto  0 ;
+        
+    }
+    .security-image img{
+        
+        margin: 0 auto;
+    }
+
+    .security-container{
+        flex-direction: column;
+       gap: 1rem;
+    }
+    .security-text{
+        text-align: center;
+        padding: 0 2rem;
+    }
+}

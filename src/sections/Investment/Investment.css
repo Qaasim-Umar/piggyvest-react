@@ -1,7 +1,7 @@
 .investment-image {
   position: relative;
 }
-.left {
+.investment-left {
   flex: 2;
 }
 
@@ -14,10 +14,11 @@
   height: 34rem;
   padding-left: 5rem;
 }
-#crossicon {
+#lineicon {
   position: absolute;
   z-index: 5;
-  top: 0;
+  right: 5.5rem;
+  top: 2.5rem;
 }
 #circleicon {
   position: absolute;
@@ -25,32 +26,54 @@
   top: 10rem;
   left: -5rem;
   height: 19rem;
-  color: #000000;
 }
 
-.right {
+.investment-image {
   flex: 3;
   margin-top: 2rem;
 }
-.right span {
+.investment-image span {
   background-color: #f7f0ff;
   padding: 0.6rem 1.5rem;
   font-weight: 500;
   border-radius: 2rem;
   color: #7913e5;
 }
-.right h4 {
+.investment-image h4 {
   font-size: 51px;
   margin-bottom: 1.5rem;
   margin-top: 4.5rem;
 }
 
-.right p {
+.investment-image p {
   margin-bottom: 2rem;
   padding-right: 2rem;
 }
-.right a{
-    color: #7913e5;
-    font-size: 18px;
-    font-weight: 500;
+.investment-image a {
+  color: #7913e5;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+  .investment-card {
+    flex-direction: column;
+  }
+  #invest-img {
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  #circleicon {
+    left: 0rem;
+    height: 15rem;
+  }
+
+  #lineicon {
+    display: none;
+  }
+
+  .investment-card {
+    margin: 0 auto;
+  }
 }

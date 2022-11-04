@@ -6,6 +6,8 @@ import Savings from './sections/Savings/Savings';
 import Investment from './sections/Investment/Investment';
 import Topsaver from './sections/Topsaver/Topsaver';
 import Customer from './sections/Customer/Customer';
+import Featured from './sections/Featured/Featured';
+import Footer from './sections/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -14,8 +16,10 @@ function App() {
       <Security/>
       <Savings/>
       <Investment/>
-      <Topsaver/>
+      {/* <Topsaver/>
       <Customer/>
+      <Featured/>
+      <Footer/> */}
      
     </div>
   );

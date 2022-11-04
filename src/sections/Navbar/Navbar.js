@@ -8,28 +8,28 @@ import flex from "./flex.png";
 
 import CreateBtn from "../../components/CreateBtn/CreateBtn";
 import SignBtn from "../../components/SignBtn/SignBtn";
+
 import { HiBars3 } from "react-icons/hi2";
+import { FaTimes } from "react-icons/fa";
+import {useState} from 'react';
+
+
+
 
 function Navbar() {
+  const [state,setState]=useState(true)
+  const handleClick=()=>{
+    setState(!state)
+  }
   return (
     <div className="header">
+      <div className="logo">
+        <img src={logo} id="logo" alt="" />
+      </div>
 
-            <div className="logo">
-               <img src={logo} id="logo" alt="" />
-           </div>
-  
-
-
-      
-
-
-          
-          <nav className="nav-links">
-
-          <div className="sub-header">
-
-
-             <a href="#" className="tooltip">
+      <nav className={state?'nav-links':'nav-links active'}>
+        <div className="sub-header">
+          <a href="#" className="tooltip">
             Save
             <div className="save">
               <div className="image1">
@@ -56,29 +56,20 @@ function Navbar() {
           <a href="#">Stories</a>
           <a href="#">FaQs</a>
           <a href="#">Blog</a>
-          
-          </div>
-
-          <div className="auth">
-        <SignBtn  id='signBtn' />
-        <CreateBtn id='createBtn' text='Create free account'/>  
-      </div>
-
-
-      </nav>
-
-    
-
-      
-
-      <div className="icon">
-          <HiBars3/>
         </div>
 
+        <div className="auth">
+          <SignBtn id="signBtn" />
+          <CreateBtn id="createBtn" text="Create free account" />
+        </div>
+      </nav>
+
+      <div className="bar">
+       <button className={state?'show':'hidden'}  onClick={handleClick}><HiBars3/></button> 
+        <button className={state?'hidden':'show '} onClick={handleClick}><FaTimes /></button>
       </div>
-     
-    
   
+    </div>
   );
 }
 

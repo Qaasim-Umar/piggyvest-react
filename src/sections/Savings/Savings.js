@@ -28,7 +28,7 @@ const Savings = () => {
         <CreateBtn id="savings-btn" text="Start Saving " />
       </div>
 
-<div className="savings-grid right">
+<div className="savings-grid">
 
 <Card h4='Automated Savings' p='Build a dedicated savings faster on your terms automatically or manually ' image1= {piggy} image2={bluearrow} span='piggybank ' id='' />
    

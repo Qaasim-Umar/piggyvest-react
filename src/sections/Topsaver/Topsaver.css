@@ -46,3 +46,7 @@ padding: 2rem  15rem 7.5rem 7rem;
   color: #ffffff;
   font-size: 18px;
 }
+
+@media only screen and (max-width: 600px) {
+
+}

@@ -1,9 +1,9 @@
 import React from 'react'
 import './SignBtn.css'
 
-const signBtn = () => {
+const signBtn = ({id}) => {
   return (
-    <div className='sign-btn'> <a href=''><button>Sign in</button> </a>  </div>
+    <div className='sign-btn' > <a href=''><button id={id}>Sign in</button> </a>  </div>
   )
 }
 

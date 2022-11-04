@@ -7,9 +7,10 @@
   box-sizing: border-box;
 }
 
-body p ,span{
+body p ,span,li{
 font-family: DM Sans,sans-serif;
 }
-body h1 ,h4 {
+body h1 ,h4,h2,h3 ,h5 {
   font-family: 'U8';
 }
+

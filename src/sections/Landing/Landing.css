@@ -60,6 +60,7 @@
   position: absolute;
   top: 11rem;
   right: 11.6rem;
+  animation: 0.8s ease-out 0s 1 downupmiddle;
 }
 #lineDot {
   z-index: 12;
@@ -80,6 +81,7 @@
   font-size: 65px;
   color: #0c1825;
   line-height: 82.42px;
+  animation: 0.9s ease-out 0s 1 downup;
 }
 
 .landing-left p {
@@ -106,6 +108,24 @@
   transition: all 500ms ease;
 }
 
+
+@keyframes downup {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes downupmiddle {
+ from{
+    transform: translateY(60%);
+  }
+  100% {
+    transform: translateY(10%);
+  }
+}
 @media screen and (max-width: 992px) {
   .landing-row {
     flex-direction: column;

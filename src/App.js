@@ -28,6 +28,7 @@ function App() {
     },
     [window.scrollY]
   );
+
   return (
     <div className="App">
       <Navbar scrollstate={scrollstate} />

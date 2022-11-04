@@ -34,7 +34,7 @@ const Savings = () => {
    
    <Card h4='Fixed Savings' p='Lock money away for a fixed duration with no access to it until maturity. It is like having a custom fixed deposit' image1={safelock} image2={lbluearrow} span='safelock' id=''/>
    
-  <Card h4='Goal-oriented Savings' p='Reach all your saving goals faster. Save towards multiple goals on your own or with a group ' image1={target} image2={greenarrow} span='' id='Target Savings'/>
+  <Card h4='Goal-oriented Savings' p='Reach all your saving goals faster. Save towards multiple goals on your own or with a group ' image1={target} image2={greenarrow} span='Target Savings' id='Target Savings'/>
   
   <Card h4='Flexible Savings' p='save, transfer, withdraw, manage and organise your money free at any time ' image1={flex} image2={pinkarrow} span='Flex Naira' id='' />
 

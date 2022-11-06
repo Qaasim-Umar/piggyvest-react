@@ -4,7 +4,6 @@
 .investment-left {
   flex: 2;
 }
-
 .investment-card {
   display: flex;
   margin: 5rem 4rem;
@@ -27,27 +26,24 @@
   left: -5rem;
   height: 19rem;
 }
-
 .investment-image {
   flex: 3;
   margin-top: 2rem;
 }
-.investment-image span {
+.investment-span {
   background-color: #f7f0ff;
   padding: 0.6rem 1.5rem;
   font-weight: 500;
   border-radius: 2rem;
   color: #7913e5;
 }
-.investment-image h4 {
+.investment-h4 {
   font-size: 51px;
   margin-bottom: 1.5rem;
   margin-top: 4.5rem;
 }
-
 .investment-image p {
-  margin-bottom: 2rem;
-  padding-right: 2rem;
+  margin: 2rem 2rem 0 0;
 }
 .investment-image a {
   color: #7913e5;
@@ -55,7 +51,7 @@
   font-weight: 500;
   text-decoration: none;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
   .investment-card {
     flex-direction: column;
   }
@@ -63,17 +59,26 @@
     margin: 0 auto;
     padding: 0 2rem;
   }
-
   #circleicon {
     left: 0rem;
     height: 15rem;
   }
-
   #lineicon {
     display: none;
   }
-
   .investment-card {
     margin: 0 auto;
+  }
+  .investment-image {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .investment-h4 {
+    font-size: 30px;
+    margin-top: 2rem;
+  }
+  .investment-image p {
+    margin: 0;
+    padding: 0 1.2rem 1.5rem 1.2rem;
   }
 }

@@ -12,19 +12,16 @@
 .landing-row .landing-right {
   flex: 1 1 auto;
 }
-
 /* left  */
 .landing-left {
   width: 22rem;
   padding: 0 6rem;
 }
-
 .landing-right {
   position: relative;
   padding-top: 2.5rem;
   padding-right: 9rem;
 }
-
 /* absolute position */
 #rect {
   position: absolute;
@@ -48,7 +45,6 @@
   left: -7rem;
   z-index: 10;
 }
-
 #cross {
   z-index: 12;
   position: absolute;
@@ -68,7 +64,6 @@
   top: 22rem;
   left: -1rem;
 }
-
 .get-app {
   display: flex;
   gap: 2rem;
@@ -77,13 +72,12 @@
 .landing-left h1 {
   padding-top: 2.5rem;
   margin-bottom: 0;
-  width: 90%;
+  max-width: 90%;
   font-size: 65px;
   color: #0c1825;
   line-height: 82.42px;
   animation: 0.9s ease-out 0s 1 downup;
 }
-
 .landing-left p {
   font-size: 17px;
   width: 90%;
@@ -91,24 +85,19 @@
   font-family: "DM Sans", sans-serif;
   line-height: 27.2px;
 }
-
 .landing-bttn {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-
 .get-app #getandroid:hover {
   margin-top: -0.5rem;
   transition: all 500ms ease;
 }
-
 .get-app #getiphone:hover {
   margin-top: -0.5rem;
   transition: all 500ms ease;
 }
-
-
 @keyframes downup {
   0% {
     transform: translateY(100%);
@@ -117,9 +106,8 @@
     transform: translateY(0%);
   }
 }
-
 @keyframes downupmiddle {
- from{
+  from {
     transform: translateY(60%);
   }
   100% {
@@ -132,7 +120,6 @@
     justify-content: center;
     align-items: center;
   }
-
   .landing-left {
     width: 100%;
     margin-right: 0;
@@ -142,6 +129,24 @@
   .landing-left p {
     line-height: 27.2px;
     padding: 0 5rem;
+    width: 100%;
+  }
+  .landing-left h1 {
+    max-width: 100%;
+    padding: 0 5rem;
+  }
+  .get-app {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .landing-bttn {
+    justify-content: center;
+    align-items: center;
+  }
+  .landing-right {
+    margin-top: 3rem;
+    width: 45%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -150,7 +155,6 @@
     left: 4rem;
     height: 8rem;
   }
-
   #lineDot {
     top: 17rem;
   }
@@ -159,36 +163,23 @@
     top: 10rem;
     left: -2rem;
   }
-  .landing-bttn {
-    justify-content: center;
-    align-items: center;
-  }
-  .get-app {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
   .landing-right {
     width: 75%;
-    margin-top: 2rem;
   }
   .landing-right #headerimg {
     height: 24rem;
   }
-
   .landing-right #rect {
     height: 26rem;
     top: 1.5rem;
   }
-
   .landing-left {
     padding: 0;
   }
-
   .landing-left h1 {
     width: 100%;
     padding: 0 3rem;
-    font-size: 42px;
+    font-size: 45px;
     line-height: 1.3;
   }
   .landing-left p {

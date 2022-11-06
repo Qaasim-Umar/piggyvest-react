@@ -18,13 +18,11 @@ function Navbar(props) {
   const handleClick = () => {
     setState(!state);
   };
-
   return (
     <div className={props.scrollstate ? "header shadow" : "header"}>
       <div className="logo">
         <img src={logo} id="logo" alt="" />
       </div>
-
       <nav className={state ? "nav-links" : "nav-links active"}>
         <div className="sub-header">
           <a href="#" className="tooltip">
@@ -42,36 +40,31 @@ function Navbar(props) {
                 <img src={target} alt="" />
                 <span className="grid-item ">Target Savings</span>
               </div>
-              <div className="image4">
-                {" "}
+              <div className="image4">{" "}
                 <img src={flex} alt="" />
                 <span className="grid-item flex">Flex Naira</span>
               </div>
             </div>
-          </a>
-
+            </a>
           <a href="#">Invest</a>
           <a href="#">Stories</a>
           <a href="#">FaQs</a>
           <a href="#">Blog</a>
         </div>
-
         <div className="auth">
           <SignBtn id="signBtn" />
           <CreateBtn id="createBtn" text="Create free account" />
         </div>
       </nav>
-
       <div className="bar">
         <button className={state ? " show" : "hidden"} onClick={handleClick}>
-          <HiBars3  />
+          <HiBars3 />
         </button>
         <button className={state ? "hidden" : "show "} onClick={handleClick}>
-          <FaTimes/>
+          <FaTimes />
         </button>
       </div>
     </div>
   );
 }
-
 export default Navbar;

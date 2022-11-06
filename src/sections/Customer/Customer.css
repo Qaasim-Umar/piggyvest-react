@@ -1,28 +1,22 @@
-.customers-card{
-    display: flex;
-    gap: 2rem;
+.customers-card {
+  display: flex;
+  gap: 2rem;
 }
-
-
 div #customers {
   padding: 3rem 0;
   color: #353535;
-  
 }
-
 .customer-container {
-    margin-left: 7rem;
+  margin-left: 7rem;
   align-items: center;
   max-width: 30rem;
 }
 .customer-container .reviews {
   grid-area: reviews;
 }
-
-.customer-container  .customers-text {
+.customer-container .customers-text {
   grid-area: customers-text;
 }
-
 .reviews {
   height: 400px;
   width: auto;
@@ -62,19 +56,17 @@ div #customers {
   animation: slide 30s linear infinite;
 }
 .reviews-box .review-single {
-    background-color: #f9f9f9;
+  background-color: #f9f9f9;
   padding: 1.5rem;
   margin-bottom: 1rem;
   max-width: 450px;
 }
-
 .reviews-box .date {
   font-size: 0.78rem;
   text-align: right;
   margin-bottom: 1rem;
   color: rgb(61, 61, 61);
 }
-
 .reviews-box .review-content {
   display: flex;
   gap: 0.8rem;
@@ -85,68 +77,64 @@ div #customers {
   border-radius: 50%;
   object-fit: cover;
 }
-
 .review-text .review-name {
   display: inline-block;
   font-weight: 700;
   font-size: 0.8rem;
   margin-bottom: 1rem;
 }
-
-.review-text p{
+.review-text p {
   line-height: 1.8;
   font-size: 12px;
 }
-
 @keyframes slide {
   from {
     transform: translateY(0);
   }
-
   to {
     transform: translateY(-350px);
   }
 }
-
-
-
-
-
-.customer-left{
-    padding:2rem 4rem;
+.customer-left {
+  padding: 2rem 4rem;
 }
-
-.customer-get-btn{
-display: flex;
-gap: 2rem;
-margin: 2rem 0;
+.customer-get-btn {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
 }
-.customer-left h4{
-    font-size: 2.2rem;
-    margin-bottom: 1.5rem;
+.customer-left h4 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
 }
-
-.customer-left p{
+.customer-left p {
   max-width: 405px;
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
-
-
-
-
-/*  @media only screen and (min-width:992px){
-      
-.container{
-      grid-template-columns: 1fr;
-      grid-gap: 5rem;
-      grid-template: 
-        "customers-text"
-        "reviews";
-    } 
-    
-     .reviews {
-        margin: 0 auto;
-      }
-    
-    
-    } */
+@media only screen and (max-width: 992px) {
+  .customers-card {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 0;
+  }
+  .customer-container {
+    margin: 0 auto;
+  }
+  #customer-c-btn {
+    margin: 0 auto;
+  }
+  .customer-left {
+    padding: 1rem 1.5rem;
+  }
+  .customer-left p {
+    margin: 1rem auto;
+  }
+  .customer-get-btn {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .customer-left h4 {
+    font-size: 2rem;
+  }
+}

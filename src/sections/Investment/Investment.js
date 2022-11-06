@@ -15,10 +15,9 @@ const Investment = () => {
           <img src={circle} id="circleicon" alt="" />
         </div>
       </div>
-
       <div className="investment-image">
-        <span>Up To 25% Returns</span>
-        <h4>Access investment opportunities</h4>
+        <span className="investment-span">Up To 25% Returns</span>
+        <h4 className="investment-h4">Access investment opportunities</h4>
         <p>
           Invest securely and confidently on the go. Grow your money confidently
           by investing in pre-vetted investment opportunities.

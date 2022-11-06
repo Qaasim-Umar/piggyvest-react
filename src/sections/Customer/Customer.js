@@ -33,7 +33,6 @@ const Customer = () => {
                   </div>
                 </div>
               </div>
-
               <div className="review-single">
                 <p className="date">Tuesday, 4th of October 2022 by 18:01 PM</p>
                 <div className="review-content">
@@ -48,7 +47,6 @@ const Customer = () => {
                   </div>
                 </div>
               </div>
-
               <div className="review-single">
                 <p className="date">
                   Saturday, 24th of September 2022 by 19:58 PM
@@ -64,7 +62,6 @@ const Customer = () => {
                   </div>
                 </div>
               </div>
-
               <div className="review-single">
                 <p className="date">
                   Thursday, 6th of October 2022 by 11:42 AM
@@ -80,7 +77,6 @@ const Customer = () => {
                   </div>
                 </div>
               </div>
-
               <div className="review-single">
                 <p className="date">
                   {" "}
@@ -97,7 +93,6 @@ const Customer = () => {
                   </div>
                 </div>
               </div>
-
               <div className="review-single">
                 <p className="date">Tuesday, 4th of October 2022 by 18:01 PM</p>
                 <div className="review-content">
@@ -116,7 +111,6 @@ const Customer = () => {
           </div>
         </div>
       </div>
-
       <div class="customer-left">
         <h4>4 Million + customers</h4>
         <p>
@@ -124,12 +118,10 @@ const Customer = () => {
           manage their money better, avoid over-spending and be more
           accountable.
         </p>
-
-        <CreateBtn text="Create free account "  id=''/>
+        <CreateBtn text="Create free account " id="customer-c-btn" />
         <div className="customer-get-btn">
-        <GetIphone />
-
-        <GetAndroid />
+          <GetIphone />
+          <GetAndroid />
         </div>
       </div>
     </div>

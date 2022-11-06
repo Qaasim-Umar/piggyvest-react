@@ -1,69 +1,56 @@
-#savings-btn{
- width: 9rem;  
- background-color: #222121; 
+#savings-btn {
+  width: 9rem;
+  background-color: #222121;
 }
-.savings-grid{
-    display: grid;
-    gap: 3rem;
-    grid-template-columns: 1fr 1fr;
+.savings-grid {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr 1fr;
 }
-
-.savings-left{
-    max-width: 330px;
-    margin: 0 5rem;
+.savings-left {
+  max-width: 330px;
+  margin: 0 5rem;
 }
-
-
-.savings-left h4{
-    color: #272727;
-    margin-bottom: 0;
-    font-size: 2.4rem;
-    
-
+.savings-left h4 {
+  color: #272727;
+  margin-bottom: 0;
+  font-size: 2.4rem;
 }
-.savings-left p{
-    color: #353535;
-margin: 2.5rem 0;
+.savings-left p {
+  color: #353535;
+  margin: 2.5rem 0;
 }
-.saving-card{
-    margin-top:12rem ;
-    display: flex;
+.saving-card {
+  margin-top: 12rem;
+  display: flex;
 }
-
-
-@media only screen and (max-width: 600px) {
-.saving-card{
+@media only screen and (max-width: 992px) {
+  .saving-card {
     margin-top: 3rem;
     flex-direction: column;
     gap: 2rem;
     text-align: center;
-}
-.savings-left{
+  }
+  .savings-left {
     margin: 0 auto;
-}
-.savings-left p{
+  }
+  .savings-left p {
     margin: 1.5rem 0;
-}
-.savings-grid{
+  }
+  .savings-grid {
     grid-template-columns: 1fr;
-}
-
-#savings-btn{
+  }
+  #savings-btn {
     margin: 0 auto;
-}
-
-.card{
+  }
+  .card {
     margin: 0 auto;
-    
-}
-.right h4{
+  }
+  .right h4 {
     font-size: 20px;
     text-align: center;
-   
-}
-
-.plan-btn{
+  }
+  .plan-btn {
     justify-content: center;
-}
-
+  }
 }

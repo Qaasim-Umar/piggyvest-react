@@ -1,16 +1,21 @@
 @import url(//db.onlinewebfonts.com/c/7017698b5c5a2cc397cd3b0c0984d76f?family=U8);
 
 :root {
-  --hover-blue:rgb(13, 13, 253);
+  --hover-blue: rgb(13, 13, 253);
 }
-*{
+* {
   box-sizing: border-box;
 }
 
-body p ,span,li{
-font-family: DM Sans,sans-serif;
+body p,
+span,
+li {
+  font-family: DM Sans, sans-serif;
 }
-body h1 ,h4,h2,h3 ,h5 {
-  font-family: 'U8';
+body h1,
+h4,
+h2,
+h3,
+h5 {
+  font-family: "U8";
 }
-

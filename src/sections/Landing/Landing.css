@@ -3,7 +3,7 @@
 .landing-row {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 12rem;
+  margin-top: 10rem;
   font-family: "U8" !important;
 }
 .landing-row .landing-left {
@@ -16,7 +16,6 @@
 .landing-left {
   width: 22rem;
   padding: 0 6rem;
-  margin-top: 2rem;
 }
 .landing-right {
   position: relative;
@@ -28,69 +27,60 @@
   position: absolute;
   top: 0;
   left: 3rem;
-  height: 39rem;
 }
 #headerimg {
   position: absolute;
-  object-fit: cover;
-  height: 34rem;
 }
 #investify {
   position: absolute;
-  top: 29rem;
-  right: 8rem;
+  top: 25rem;
+  right: 5.5rem;
   height: 8rem;
   z-index: 10;
 }
 #rentcard {
   position: absolute;
   height: 8rem;
-  top: 12rem;
+  top: 10rem;
   left: -7rem;
   z-index: 10;
 }
 #cross {
   z-index: 12;
   position: absolute;
-  top: 0.6rem;
-  left: -2.2rem;
+  top: 0.3rem;
+  left: -2rem;
 }
 #circle {
   z-index: 12;
   position: absolute;
   top: 11rem;
-  right: 14.4rem;
+  right: 11.6rem;
   animation: 0.8s ease-out 0s 1 downupmiddle;
 }
 #lineDot {
   z-index: 12;
   position: absolute;
-  top: 25rem;
+  top: 22rem;
   left: -1rem;
 }
 .get-app {
   display: flex;
   gap: 2rem;
 }
-#landing-createbtn {
-  font-size: 20px;
-  width: 14rem;
-  background: #0c1825;
-  height: 3.5rem;
-  
-}
-.landing-left .landing-h1 {
+
+.landing-left h1 {
   padding-top: 2.5rem;
   margin-bottom: 0;
-  max-width: 85%;
-  font-size: 75px;
+  max-width: 90%;
+  font-size: 65px;
   color: #0c1825;
   line-height: 82.42px;
   animation: 0.9s ease-out 0s 1 downup;
 }
 .landing-left p {
-  font-size: 19px;
-  width: 85%;
+  font-size: 17px;
+  width: 90%;
   color: #353535;
   font-family: "DM Sans", sans-serif;
   line-height: 27.2px;

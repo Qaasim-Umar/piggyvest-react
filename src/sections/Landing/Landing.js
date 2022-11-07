@@ -19,18 +19,16 @@ const Landing = () => {
       <div className="landing-container">
         <div className="landing-row">
           <div className="landing-left">
-           
-            <h1 className="landing-h1">The Better Way to Save & invest.</h1>
+            <h1>The Better Way to Save & invest.</h1>
             <p>
               PiggyVest helps over 4 million customers achieve thier financial
               goals by helping them save and invest with ease
             </p>
             <div className="landing-bttn">
-              <CreateBtn text="Create free account" id='landing-createbtn' />
+              <CreateBtn text="Create free account" />
               <div className="get-app">
                 <GetIphone id="getiphone" />
                 <GetAndroid id="getandroid" />
-               
               </div>
             </div>
           </div>

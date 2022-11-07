@@ -24,7 +24,7 @@
   margin-top: 12rem;
   display: flex;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 600px) {
   .saving-card {
     margin-top: 3rem;
     flex-direction: column;

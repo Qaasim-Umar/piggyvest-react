@@ -19,3 +19,21 @@ h3,
 h5 {
   font-family: "U8";
 }
+
+
+@keyframes downup {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes downupmiddle {
+  from {
+    transform: translateY(60%);
+  }
+  100% {
+    transform: translateY(10%);
+  }
+}

@@ -9,12 +9,18 @@ body {
 .hidden {
   display: none;
 }
+#signBtn{
+height: 3.5rem;
+}
+#createBtn{
+  width: 14rem;
+}
 .nav-links a {
   text-decoration: none;
   color: #000000;
   font-weight: 500;
   font-size: 1.1rem;
-  margin: 1rem;
+  margin: 1rem 1.5rem;
 }
 .header .logo {
   flex: 1;
@@ -26,11 +32,11 @@ body {
   flex: 5;
 }
 #logo {
-  height: 2rem;
+  height: 2.45rem;
 }
 .auth {
   display: flex;
-  gap: 0.6rem;
+  gap: 0rem;
 }
 .header {
   display: flex;

@@ -19,7 +19,7 @@ const Landing = () => {
       <div className="landing-container">
         <div className="landing-row">
           <div className="landing-left">
-            <h1>The Better Way to Save & invest.</h1>
+            <h1>The Better Way to Save & Invest.</h1>
             <p>
               PiggyVest helps over 4 million customers achieve thier financial
               goals by helping them save and invest with ease

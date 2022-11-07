@@ -1,4 +1,8 @@
-@import url(//db.onlinewebfonts.com/c/7017698b5c5a2cc397cd3b0c0984d76f?family=U8);
+@font-face {
+  font-family: "U8";
+  src: url(../fonts/7017698b5c5a2cc397cd3b0c0984d76f.woff) format("woff"),
+    url("../fonts/7017698b5c5a2cc397cd3b0c0984d76f.woff2") format("woff2");
+}
 
 :root {
   --hover-blue: rgb(13, 13, 253);
@@ -17,9 +21,8 @@ h4,
 h2,
 h3,
 h5 {
-  font-family: "U8";
+  font-family: "U8", sans-serif;
 }
-
 
 @keyframes downup {
   0% {

@@ -127,6 +127,9 @@ height: 100vh;
     justify-content: center;
     align-items: center;
   }
+  .landing-container{
+    background: #ffffff;
+  }
   .landing-left {
     width: 100%;
     margin-right: 0;

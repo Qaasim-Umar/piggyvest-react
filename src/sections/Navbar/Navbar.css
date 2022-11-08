@@ -168,6 +168,7 @@ height: 3.5rem;
   }
   .bar button {
     border: none;
+    background-color: transparent;
     padding: 0;
     font-size: 2.4rem;
     line-height: 1rem;

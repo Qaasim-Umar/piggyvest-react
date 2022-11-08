@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr ;
   padding: 1rem 3rem;
+  position: relative;
 }
 .footer-img {
   display: flex;
@@ -12,6 +13,24 @@
 .footer-img #footer-logo {
   height: 2.5rem;
 }
+.social-icons{
+  position: absolute;
+  right: 3rem;
+  top: -.8rem;
+
+}
+ #facebook, #instagram  ,#twitter{
+font-size: 1.9rem;
+color: #353535;
+  margin-left: .3rem;
+  margin-top: .4rem;
+  transition: all 500ms ease;
+}
+#facebook:hover, #instagram:hover  ,#twitter:hover{
+  margin-bottom: .3rem;
+}
+
+
 .footer-img #compliance {
   height: 5rem;
 
@@ -23,9 +42,10 @@
   line-height: 28px;
   font-size: 14px;
 }
-.footer-flex .address {
+.address {
   text-align: end;
   font-size: 14px;
+ 
 }
 .footer-about {
   text-align: center;

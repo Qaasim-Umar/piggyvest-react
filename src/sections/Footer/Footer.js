@@ -4,6 +4,8 @@ import "./Footer.css";
 import compliance from "./compliance.webp";
 import logo from "../Navbar/logo.svg";
 
+import { FaFacebookSquare , FaTwitterSquare, FaInstagramSquare} from "react-icons/fa";
+
 const Footer = () => {
   return (
     <div>
@@ -40,6 +42,11 @@ const Footer = () => {
             <li>Security</li>
           </ul>
         </div>
+        <div className="social-icons">
+          <FaFacebookSquare id="facebook" />
+         <FaTwitterSquare id="twitter"/>
+         <FaInstagramSquare id="instagram"/>
+          </div>
         <div className="address">
           <p>
             Tesmot house, Abdulrahman Okene close, Victoria Island, Lagos,

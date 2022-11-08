@@ -3,8 +3,15 @@
 .landing-row {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10rem;
+  padding-top: 10rem;
   font-family: "U8" !important;
+}
+.landing-container{
+  background: -webkit-gradient(linear,left top,right top,from(#fff),color-stop(66.5%,#fff),color-stop(66.5%,#f8f9fa),color-stop(94.5%,#f8f9fa),color-stop(94.5%,#fff),color-stop(0,#fff));
+  background: -webkit-linear-gradient(left,#fff,#fff 66.5%,#f8f9fa 0,#f8f9fa 94.5%,#fff 0,#fff 0);
+  background: -moz-linear-gradient(left,#fff,#fff 66.5%,#f8f9fa 66.5%,#f8f9fa 94.5%,#fff 94.5%,#fff 0);
+  background: linear-gradient(90deg,#fff,#fff 66.5%,#f8f9fa 0,#f8f9fa 94.5%,#fff 0,#fff 0);
+height: 100vh;
 }
 .landing-row .landing-left {
   flex: 1 1 auto;

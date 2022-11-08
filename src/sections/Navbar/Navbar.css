@@ -47,10 +47,10 @@ height: 3.5rem;
   top: 0;
   width: 100%;
   z-index: 15;
-  background-color: #ffffff;
 }
 .shadow {
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
 }
 .save {
   border: 1px solid rgb(223, 216, 216);

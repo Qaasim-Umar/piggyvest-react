@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <Navbar scrollstate={scrollstate} />
       <Landing />
-      <Security />
+      <Security scrollstate={scrollstate} />
       <Savings />
       <Investment />
       <Topsaver />

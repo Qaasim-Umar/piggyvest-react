@@ -24,6 +24,11 @@ h5 {
   font-family: "U8", sans-serif;
 }
 
+.animation{
+animation: 0.9s ease-out 0s 1 downup;
+
+}
+
 @keyframes downup {
   0% {
     transform: translateY(100%);

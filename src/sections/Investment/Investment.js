@@ -5,7 +5,7 @@ import invest from "./invest.png";
 import circle from "./circle.svg";
 import lineDot from "../Landing/lineDot.svg";
 
-const Investment = () => {
+const Investment = (props) => {
   return (
     <div className="investment-card">
       <div className="investment-left">
@@ -17,7 +17,7 @@ const Investment = () => {
       </div>
       <div className="investment-image">
         <span className="investment-span">Up To 25% Returns</span>
-        <h4 className="investment-h4">Access investment opportunities</h4>
+        <h4 className={props.scrollstate ? "investment-h4 animation" : "investment-h4"}>Access investment opportunities</h4>
         <p>
           Invest securely and confidently on the go. Grow your money confidently
           by investing in pre-vetted investment opportunities.

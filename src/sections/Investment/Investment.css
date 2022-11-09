@@ -30,6 +30,9 @@
   flex: 3;
   margin-top: 2rem;
 }
+.animation{
+  animation: 0.9s ease-out 0s 1 downup;
+  }
 .investment-span {
   background-color: #f7f0ff;
   padding: 0.6rem 1.5rem;

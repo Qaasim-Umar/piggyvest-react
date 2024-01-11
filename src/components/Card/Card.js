@@ -6,7 +6,7 @@ const Card=({id, image1,image2, span, p, h4,}) => {
   return (
     <div className="card">
 
-      <div id={id} className="inner-Card">
+      <div id={id} className="inner-card">
 
         <img src={image1} alt="Icon" />
 

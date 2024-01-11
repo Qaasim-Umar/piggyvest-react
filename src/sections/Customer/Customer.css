@@ -18,7 +18,7 @@ div #customers {
   grid-area: customers-text;
 }
 .reviews {
-  height: 400px;
+  height: 450px;
   width: auto;
   overflow-y: hidden;
   padding: 0 1rem;
